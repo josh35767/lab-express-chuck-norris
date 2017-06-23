@@ -1,1 +1,9 @@
 
+  <h2>Categories</h2>
+
+  <div class='category-list'>
+    <form method="get" action="/categories"
+  <% jokeArray.forEach((category) => { %>
+    <input type="submit" name="categorybtn" value="<%= category %>">
+  <% }) %>
+  </div>

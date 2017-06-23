@@ -1,0 +1,9 @@
+<h1> Your Results by keyword <i> "<%= searchTerm %>" </i> </h1>
+
+<ol>
+
+  <% theJokeArray.forEach((jokeObject)=> { %>
+    <li> <%= jokeObject.value %> </li><br>
+  <% }); %>
+
+</ol>
